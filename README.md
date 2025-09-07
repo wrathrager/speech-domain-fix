@@ -1,1 +1,2 @@
-inital commit readme
+
+# full documentation
