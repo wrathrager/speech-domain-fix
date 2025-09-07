@@ -1,0 +1,28 @@
+# Core speech recognition
+openai-whisper==20231117
+torch>=2.0.0
+
+# OpenAI LLM API
+openai>=1.40.0
+
+# Hugging Face ecosystem (for fine-tuning + datasets)
+transformers>=4.41.0
+datasets>=2.21.0
+torchaudio>=2.0.0
+
+# Evaluation
+jiwer==3.0.4     # Word Error Rate (WER) calculation
+nltk>=3.9.0      # For tokenization, BLEU etc.
+
+# Frontend demo
+gradio>=4.37.0
+streamlit>=1.36.0
+
+# Optional: Cloud ASR with custom vocabulary (Medium Fix)
+google-cloud-speech>=2.26.0
+azure-cognitiveservices-speech>=1.37.0
+
+# Utilities
+tqdm>=4.66.0
+pandas>=2.2.0
+numpy>=1.26.0
