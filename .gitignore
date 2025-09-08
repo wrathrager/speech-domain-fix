@@ -1,0 +1,65 @@
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+.notebooks_cache/
+*.nbconvert.ipynb
+
+# Data & audio
+data/raw_audio/*
+!data/raw_audio/.gitkeep
+data/transcripts/*
+!data/transcripts/.gitkeep
+models/*
+!models/.gitkeep
+tmp/
+*.wav
+*.mp3
+*.flac
+
+# Logs
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Checkpoints
+*.ckpt
+*.pt
+*.bin
+*.pth
+
+# Env/config (but keep example)
+.env
+*.env
+config_local.yaml
+
+# Cache
+__pycache__/
+.cache/
+*.pickle
+*.pkl
+*.joblib
